@@ -64,16 +64,16 @@ div {
 }
 
 .greenonwhite {
-  color: #298E0D;
-  background-color: #FFFFFF;
+  color: #298e0d;
+  background-color: #fff;
 }
 .whiteongreen {
-  color: #FFFFFF;
-  background-color: #298E0D;
+  color: #fff;
+  background-color: #298e0d;
 }
 .row {
-  margin-left: none;
   margin-right: none;
+  margin-left: none;
 }
 
 
@@ -157,4 +157,3 @@ div {
 }
 #credits {
 }
-
