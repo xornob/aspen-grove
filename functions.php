@@ -1,6 +1,6 @@
 <?php
 /**
- * <child theme> functions and definitions
+ * Aspen Grove functions and definitions
  *
- * @package Flint/<child theme>
+ * @package Flint/Aspen Grove
  */
