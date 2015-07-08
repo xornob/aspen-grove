@@ -30,7 +30,6 @@ Template Version: 1.3.9
 
 /* =Global
 ----------------------------------------------- */
-
 body,
 button,
 input,
@@ -56,15 +55,34 @@ img, video {
 }
 hr {
 }
+div {
+  overflow: auto;
+}
 .label {
 }
 #page {
 }
 
+.greenonwhite {
+  color: #298E0D;
+  background-color: #FFFFFF;
+}
+.whiteongreen {
+  color: #FFFFFF;
+  background-color: #298E0D;
+}
+.row {
+  margin-left: none;
+  margin-right: none;
+}
+
+
 /* Alignment */
 .alignleft {
+  float: left;
 }
 .alignright {
+  float: right;
 }
 .aligncenter {
 }
