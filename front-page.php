@@ -3,7 +3,7 @@
  * The template for displaying the front page
  *
  * @package Flint/Aspen Grove
- * @since 0.0.1
+ * @since 0.0.2
  *
  */
 
@@ -18,9 +18,9 @@ get_header(); ?>
 
       <div id="content" role="main" <?php flint_content_class(); ?>>
 
-        <div id="about" class="greenonwhite">
+        <section id="meet-gil" class="bg-green-light">
 
-          <h1>Meet Gil</h1>
+          <h2 class="section-title">Meet Gil</h2>
 
           <div class="image col-md-3"></div>
 
@@ -32,11 +32,11 @@ get_header(); ?>
 
           <a class="btn btn-success alignright">Learn More</a>
 
-        </div>
+        </section>
 
-        <div id="what_to_expect" class="whiteongreen">
-          
-          <h1> What to Expect </h1>
+        <section id="what-to-expect" class="bg-green-dark">
+
+          <h2 class="section-title">What to Expect</h2>
 
             <div> <!-- ROW -->
               <div class="image col-md-3"></div>
@@ -65,11 +65,11 @@ get_header(); ?>
                 </p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div id="aspentrees" class="greenonwhite">
+        <section id="aspen-trees" class="bg-green-light">
 
-          <h1>The Aspen Trees</h1>
+          <h2 class="section-title">The Aspen Trees</h2>
 
           <div class="image col-md-3"></div>
 
@@ -87,31 +87,37 @@ get_header(); ?>
               </p>
             </p>
           </div>
-        </div>
+        </section>
 
-        <div id="conditionstreated" class="whiteongreen">
+        <section id="conditions-treated" class="bg-green-dark">
 
-          <h1>Conditions Treated</h1>
+          <h2 class="section-title">Conditions Treated</h2>
 
           <div class="col-md-4">
-            <h4 align="center">Back</h4>
-            <h4 align="center">Neck</h4>
-            <h4 align="center">Joints</h4>
-            <p align="center">arms, legs, and anything in between</p>
+            <ul class="condition-list">
+              <li class="condition-item">Back</li>
+              <li class="condition-item">Neck</li>
+              <li class="condition-item">Joints<br>
+                arms, legs, and anything in between</li>
+            </ul>
           </div>
 
           <div class="col-md-4">
-            <h4 align="center">Chronic fatigue</h4>
-            <h4 align="center">Chronic illness</h4>
-            <h4 align="center">Autoimmune</h4>
+            <ul class="condition-list">
+              <li class="condition-item">Chronic fatigue</li>
+              <li class="condition-item">Chronic illness</li>
+              <li class="condition-item">Autoimmune</li>
+            </ul>
           </div>
 
           <div class="col-md-4">
-            <h4 align="center">Stress Relief</h4>
-            <h4 align="center">Improved Sleep</h4>
+            <ul class="condition-list">
+              <li class="condition-item">Stress Relief</li>
+              <li class="condition-item">Improved Sleep</li>
+            </ul>
           </div>
 
-        </div>
+        </section>
 
       </div><!-- #content .site-content -->
 
