@@ -3,12 +3,12 @@
  * The template for displaying the front page
  *
  * @package Flint/Aspen Grove
- * @since 0.0.2
+ * @since 0.0.3
  *
  */
 
-get_header(); ?>
-<?php flint_get_widgets('header'); ?>
+get_header();
+flint_get_widgets('header'); ?>
 
     <section id="meet-gil" class="bg-green-light">
 
@@ -39,7 +39,7 @@ get_header(); ?>
 
           <h2 class="section-title">What to Expect</h2>
 
-          <div> <!-- ROW -->
+          <div> <!-- row -->
             <div class="image col-md-4"></div>
             <div class="col-md-8">
               <p>
@@ -48,7 +48,7 @@ get_header(); ?>
               </p>
             </div>
           </div>
-          <div> <!-- ROW -->
+          <div> <!-- row -->
             <div class="image col-md-4"></div>
             <div class="col-md-8">
               <p>
@@ -57,7 +57,7 @@ get_header(); ?>
               </p>
             </div>
           </div>
-          <div> <!-- ROW -->
+          <div> <!-- row -->
             <div class="image col-md-4"></div>
             <div class="col-md-8">
               <p>
