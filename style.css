@@ -55,12 +55,33 @@ img, video {
 }
 hr {
 }
-div {
+section {
   overflow: auto;
+  font-size: 27px;
 }
 .label {
 }
 #page {
+}
+
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+.condition-item {
+  list-style: none;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 400;
+}
+.condition-desc, .aspen-text, .address, .contact-labels {
+  font-size: 21px;
+  font-weight: 400;
+}
+.callout-header {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .bg-green-light {
@@ -87,6 +108,10 @@ div {
 .aligncenter {
 }
 .alignnone {
+}
+.topright {
+  margin-top: -3.5em;
+  float: right;
 }
 
 
@@ -130,8 +155,6 @@ div {
 /* =Navigation
 ----------------------------------------------- */
 
-.navbar-brand {
-}
 
 
 /* =Comments
@@ -157,3 +180,4 @@ div {
 }
 #credits {
 }
+
