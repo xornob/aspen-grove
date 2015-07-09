@@ -20,7 +20,7 @@ get_header(); ?>
 
         <div id="about" class="greenonwhite">
 
-          <h1>Meet Gil</h1>
+          <h2 class="section-title">Meet Gil</h2>
 
           <div class="image col-md-3"></div>
 
@@ -36,7 +36,7 @@ get_header(); ?>
 
         <div id="what_to_expect" class="whiteongreen">
 
-          <h1> What to Expect </h1>
+          <h2 class="section-title">What to Expect</h2>
 
             <div> <!-- ROW -->
               <div class="image col-md-3"></div>
@@ -69,7 +69,7 @@ get_header(); ?>
 
         <div id="aspentrees" class="greenonwhite">
 
-          <h1>The Aspen Trees</h1>
+          <h2 class="section-title">The Aspen Trees</h2>
 
           <div class="image col-md-3"></div>
 
@@ -91,7 +91,7 @@ get_header(); ?>
 
         <div id="conditionstreated" class="whiteongreen">
 
-          <h1>Conditions Treated</h1>
+          <h2 class="section-title">Conditions Treated</h2>
 
           <div class="col-md-4">
             <ul class="condition-list">
