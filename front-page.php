@@ -94,26 +94,26 @@ get_header(); ?>
           <h1>Conditions Treated</h1>
 
           <div class="col-md-4">
-            <ul class="services">
-              <li class="service-item">Back</li>
-              <li class="service-item">Neck</li>
-              <li class="service-item">Joints<br>
+            <ul class="condition-list">
+              <li class="condition-item">Back</li>
+              <li class="condition-item">Neck</li>
+              <li class="condition-item">Joints<br>
                 arms, legs, and anything in between</li>
             </ul>
           </div>
 
           <div class="col-md-4">
-            <ul class="services">
-              <li class="service-item">Chronic fatigue</li>
-              <li class="service-item">Chronic illness</li>
-              <li class="service-item">Autoimmune</li>
+            <ul class="condition-list">
+              <li class="condition-item">Chronic fatigue</li>
+              <li class="condition-item">Chronic illness</li>
+              <li class="condition-item">Autoimmune</li>
             </ul>
           </div>
 
           <div class="col-md-4">
-            <ul class="services">
-              <li class="service-item">Stress Relief</li>
-              <li class="service-item">Improved Sleep</li>
+            <ul class="condition-list">
+              <li class="condition-item">Stress Relief</li>
+              <li class="condition-item">Improved Sleep</li>
             </ul>
           </div>
 
