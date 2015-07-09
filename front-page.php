@@ -3,7 +3,7 @@
  * The template for displaying the front page
  *
  * @package Flint/Aspen Grove
- * @since 0.0.1
+ * @since 0.0.2
  *
  */
 
