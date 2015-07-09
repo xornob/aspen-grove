@@ -320,3 +320,74 @@ fieldset[disabled] .navbar-aspen-grove .btn-link:focus {
 }
 #credits {
 }
+
+
+/* =Buttons
+----------------------------------------------- */
+
+.btn-green-dark {
+  color: #fff;
+  background-color: #367024;
+  border-color: #2d5d1e;
+}
+.btn-green-dark:focus,
+.btn-green-dark.focus {
+  color: #fff;
+  background-color: #234918;
+  border-color: #000;
+}
+.btn-green-dark:hover {
+  color: #fff;
+  background-color: #234918;
+  border-color: #162e0f;
+}
+.btn-green-dark:active,
+.btn-green-dark.active,
+.open > .dropdown-toggle.btn-green-dark {
+  color: #fff;
+  background-color: #234918;
+  border-color: #162e0f;
+}
+.btn-green-dark:active:hover,
+.btn-green-dark.active:hover,
+.open > .dropdown-toggle.btn-green-dark:hover,
+.btn-green-dark:active:focus,
+.btn-green-dark.active:focus,
+.open > .dropdown-toggle.btn-green-dark:focus,
+.btn-green-dark:active.focus,
+.btn-green-dark.active.focus,
+.open > .dropdown-toggle.btn-green-dark.focus {
+  color: #fff;
+  background-color: #162e0f;
+  border-color: #000;
+}
+.btn-green-dark:active,
+.btn-green-dark.active,
+.open > .dropdown-toggle.btn-green-dark {
+  background-image: none;
+}
+.btn-green-dark.disabled,
+.btn-green-dark[disabled],
+fieldset[disabled] .btn-green-dark,
+.btn-green-dark.disabled:hover,
+.btn-green-dark[disabled]:hover,
+fieldset[disabled] .btn-green-dark:hover,
+.btn-green-dark.disabled:focus,
+.btn-green-dark[disabled]:focus,
+fieldset[disabled] .btn-green-dark:focus,
+.btn-green-dark.disabled.focus,
+.btn-green-dark[disabled].focus,
+fieldset[disabled] .btn-green-dark.focus,
+.btn-green-dark.disabled:active,
+.btn-green-dark[disabled]:active,
+fieldset[disabled] .btn-green-dark:active,
+.btn-green-dark.disabled.active,
+.btn-green-dark[disabled].active,
+fieldset[disabled] .btn-green-dark.active {
+  background-color: #367024;
+  border-color: #2d5d1e;
+}
+.btn-green-dark .badge {
+  color: #367024;
+  background-color: #fff;
+}
