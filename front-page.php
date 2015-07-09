@@ -18,7 +18,7 @@ get_header(); ?>
 
       <div id="content" role="main" <?php flint_content_class(); ?>>
 
-        <section id="meet-gil" class="greenonwhite">
+        <section id="meet-gil" class="bg-green-light">
 
           <h2 class="section-title">Meet Gil</h2>
 
@@ -34,7 +34,7 @@ get_header(); ?>
 
         </section>
 
-        <section id="what-to-expect" class="whiteongreen">
+        <section id="what-to-expect" class="bg-green-dark">
 
           <h2 class="section-title">What to Expect</h2>
 
@@ -67,7 +67,7 @@ get_header(); ?>
           </div>
         </section>
 
-        <section id="aspen-trees" class="greenonwhite">
+        <section id="aspen-trees" class="bg-green-light">
 
           <h2 class="section-title">The Aspen Trees</h2>
 
@@ -89,7 +89,7 @@ get_header(); ?>
           </div>
         </section>
 
-        <section id="conditions-treated" class="whiteongreen">
+        <section id="conditions-treated" class="bg-green-dark">
 
           <h2 class="section-title">Conditions Treated</h2>
 
