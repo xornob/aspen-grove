@@ -35,7 +35,7 @@ get_header(); ?>
         </div>
 
         <div id="what_to_expect" class="whiteongreen">
-          
+
           <h1> What to Expect </h1>
 
             <div> <!-- ROW -->
@@ -94,21 +94,27 @@ get_header(); ?>
           <h1>Conditions Treated</h1>
 
           <div class="col-md-4">
-            <h4 align="center">Back</h4>
-            <h4 align="center">Neck</h4>
-            <h4 align="center">Joints</h4>
-            <p align="center">arms, legs, and anything in between</p>
+            <ul class="services">
+              <li class="service-item">Back</li>
+              <li class="service-item">Neck</li>
+              <li class="service-item">Joints<br>
+                arms, legs, and anything in between</li>
+            </ul>
           </div>
 
           <div class="col-md-4">
-            <h4 align="center">Chronic fatigue</h4>
-            <h4 align="center">Chronic illness</h4>
-            <h4 align="center">Autoimmune</h4>
+            <ul class="services">
+              <li class="service-item">Chronic fatigue</li>
+              <li class="service-item">Chronic illness</li>
+              <li class="service-item">Autoimmune</li>
+            </ul>
           </div>
 
           <div class="col-md-4">
-            <h4 align="center">Stress Relief</h4>
-            <h4 align="center">Improved Sleep</h4>
+            <ul class="services">
+              <li class="service-item">Stress Relief</li>
+              <li class="service-item">Improved Sleep</li>
+            </ul>
           </div>
 
         </div>
